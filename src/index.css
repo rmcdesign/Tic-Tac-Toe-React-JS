@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.board {
+  display: flex;
+  width: 600px;
+  height: 600px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  outline: 5px solid #000;
+  margin: 20px;
+}
+
+.square {
+  height: 200px;
+  width: 200px;
+  box-sizing: border-box;
+  border: 5px solid #000;
+  line-height: 200px;
+  text-align: center;
+  font-size: 100px;
+}
+
+.square:hover {
+  cursor: pointer;
+  background: #ccc;
+}
