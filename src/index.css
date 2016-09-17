@@ -29,3 +29,9 @@ body {
   cursor: pointer;
   background: #ccc;
 }
+
+.status {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
